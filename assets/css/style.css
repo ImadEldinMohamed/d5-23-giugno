@@ -110,6 +110,7 @@ h2{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 10;
 }
 
 .container{
@@ -197,7 +198,12 @@ aside{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2em;
+    height: 100%;
+    position: sticky;
+    top: 90px;
 }
+
 
 hr{
     border: 1px solid black;
@@ -248,4 +254,21 @@ hr{
 
 .navbar{
     animation: colore1 3s  ease 2s infinite;
+}
+
+h3{
+    font-weight: 1000;
+}
+
+.fine span{
+    border:  silver;
+    padding: 0.5em;
+    margin: 0.3em;
+    display: flex;
+    
+}
+
+.fine{
+    display: flex;
+    flex-wrap: wrap;
 }
